@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>To do list</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="start">
+            <button onclick="addBaseItem()">+ Add new item</button>
+        </div>
+        <div id="playground">
+        
+            <div class="shell">
+                <div class="mince">
+                    <textarea class="content"></textarea>
+                    <button class="btn">+ Add</button>
+                    <button class="done">Done</button>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="start export">
+            <button onclick="domStructure();">Export data</button>
+            <textarea id="code"></textarea>
+        </div>
+
+        
+        
+
+        <div class="start import">
+            <button onclick="importData();">Import data</button>
+            <textarea id="importArea"></textarea>
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>

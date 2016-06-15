@@ -1,0 +1,94 @@
+body{
+    background: #fff;
+}
+
+.start{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.shell{
+    /*border:1px solid #000;*/
+    /*background: #eee;*/
+    margin-left: 20px;
+    margin-top:5px;
+    padding: 4px;
+    position: relative;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.mince{
+    width: 450px;
+    height: 50px;
+    background: #ccc;
+    border: 1px solid #aaa;
+    padding: 4px;
+    text-align: right;
+}
+
+.mince.completed{
+    background: #90EE90;
+    border: 1px solid green;
+}
+
+
+.content{
+    text-align: left;
+    line-height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.mince button{
+    display: inline-block;
+    width: 75px;
+    height: 35px;
+}
+
+.btn{
+    line-height: 100%;
+}
+
+.done{
+    line-height: 100%;
+}
+
+#code{
+    margin:20px 0;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.start.import, .start.export{
+    margin:20px;
+}
+
+#importArea{
+    margin:20px 0;
+    width: 100%;
+}
+
+.opened{
+    height: 20px;
+    width: 20px;
+    background: url(../img/closed.png) no-repeat 0px 0px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.closed{
+    height: 20px;
+    width: 20px;
+    background: url(../img/closed.png) no-repeat 0px -20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#playground{
+    padding-left: 20px;
+}
